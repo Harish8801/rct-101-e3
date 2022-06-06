@@ -6,6 +6,7 @@ const Product = () => {
   return (
     <div data-cy={`product-${product.id}`}>
       <h3 data-cy="product-name"></h3>
+      
       <h6 data-cy="product-description"></h6>
       <button data-cy="product-add-item-to-cart-button"></button>
       <div>
